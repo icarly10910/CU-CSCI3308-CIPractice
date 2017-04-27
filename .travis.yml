@@ -3,3 +3,4 @@ language: c
 script: maketest
 compiler:
   - gcc
+sudo: required
