@@ -1,6 +1,5 @@
 install: make get-deps
 language: c
 script: maketest
-compiler:
-  -gcc
+compiler: gcc
 sudo: required
